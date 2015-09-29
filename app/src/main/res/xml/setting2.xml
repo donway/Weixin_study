@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="first_preferencescreen"
+    >
+    <CheckBoxPreference
+        android:key="wifi_enabled"
+        android:title="WiFi" />
+    <ListPreference
+        android:key="list_preference"
+        android:title="Choose the Number"
+        android:dialogTitle="Choose Please"
+        android:entries="@array/list_preference"
+        android:entryValues="@array/list_preference"
+        android:defaultValue="RED"
+        ></ListPreference>
+    <RingtonePreference
+        android:key="ring_preference"
+        android:title="Choose the Ring"
+        ></RingtonePreference>
+
+</PreferenceScreen>

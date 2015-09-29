@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SearchActivity">
+    <item android:id="@+id/action_me"
+        android:icon="@drawable/bar_search"
+        android:title="搜索"
+        app:showAsAction="always"
+        android:enabled="true"
+        />
+
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/bar_action"
+        android:title="action_plus"
+        app:showAsAction="always"
+        android:enabled="true" />
+</menu>
